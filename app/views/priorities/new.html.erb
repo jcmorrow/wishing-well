@@ -1,0 +1,7 @@
+<div class="container">
+  <%= simple_form_for [@strategy, @priority] do |form| %>
+    <%= form.input :card_type %>
+    <%= form.input :sequence %>
+    <%= form.submit t(".save") %>
+  <% end %>
+</div>

@@ -1,0 +1,3 @@
+.container
+  = render "matches/links", match_id: params[:match_id]
+  = react_component("DeckList", @match)

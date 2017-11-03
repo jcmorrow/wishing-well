@@ -1,0 +1,30 @@
+$gray: #ccc;
+
+.container {
+  @include outer-container;
+}
+
+.win-rate-display-panel {
+  @include span-columns(12);
+  border: 1px solid $gray;
+  border-radius: 3px;
+  padding: 100px;
+}
+
+.win-rate-panel {
+  @include span-columns(12);
+  border: 1px solid $gray;
+  border-radius: 3px;
+  padding: 10px;
+ }
+
+.card-list {
+  @include span-columns(3);
+}
+
+.card-box {
+  border: 1px solid $gray;
+  border-radius: 3px;
+  margin-bottom: 4px;
+  padding: 10px;
+}

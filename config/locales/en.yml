@@ -1,0 +1,38 @@
+en:
+  date:
+    formats:
+      default:
+        "%m/%d/%Y"
+      with_weekday:
+        "%a %m/%d/%y"
+
+  time:
+    formats:
+      default:
+        "%a, %b %-d, %Y at %r"
+      date:
+        "%b %-d, %Y"
+      short:
+        "%B %d"
+
+  titles:
+    application: Wishing well
+
+  priorities:
+    buttons:
+      new: New Priority
+    create:
+      success: Priority created successfully
+    new:
+      labels:
+        card_type: Card Type
+        sequence: Sequence
+      save: Save
+    update:
+      failure: Priority failed to update
+      success: Priority updated successfully
+
+  forms:
+    strategies:
+      create:
+        success: Strategy created successfully

@@ -1,0 +1,6 @@
+.container
+  h1= "Edit #{@strategy.name} Strategy"
+  h3 Priorities:
+  ul
+    - @strategy.priorities.each do |priority|
+      = render "priorities/priority_form", strategy: @strategy, priority: priority

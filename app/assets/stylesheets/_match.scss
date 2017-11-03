@@ -1,0 +1,7 @@
+.match-links {
+  @include row;
+
+  .link {
+    @include span-columns(3);
+  }
+}

@@ -1,0 +1,15 @@
+dependencies:
+  pre:
+    - bin/install_qt_5_5.sh
+    - echo "source /opt/qt55/bin/qt55-env.sh" >> ~/.circlerc
+machine:
+  node:
+    version: 4.0.0
+
+database:
+  override:
+    - bin/setup
+test:
+  override:
+    - COVERAGE=true bin/rake
+    - npm test

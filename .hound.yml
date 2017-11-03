@@ -1,0 +1,15 @@
+eslint:
+  config_file: .eslintrc.json
+  enabled: true
+  
+haml:
+  enabled: true
+  
+javascript:
+  enabled: false
+  
+ruby:
+  enabled: true
+  
+scss:
+  enabled: true

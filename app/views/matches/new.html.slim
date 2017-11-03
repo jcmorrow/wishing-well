@@ -1,0 +1,6 @@
+.container
+  = simple_form_for @match do |form|
+    = form.input :name
+    = form.association :strategies
+    = form.input :game_count
+    = form.submit "Create Match"

@@ -1,0 +1,4 @@
+.container
+  = react_component("PriorityList", {priorities: @strategy.priorities.to_ary})
+  = link_to(I18n.t("priorities.buttons.new"),
+            new_strategy_priority_path(@strategy))

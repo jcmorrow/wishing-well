@@ -1,0 +1,2 @@
+class PlayedPile < CardStore
+end
